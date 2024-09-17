@@ -330,6 +330,7 @@ export default function Portfolio() {
           </section>  
 
           <form 
+          id="contact"
   action="https://formspree.io/f/meojwdll" // Reemplaza con tu URL de Formspree
   method="POST"
   className="max-w-lg mx-auto"
