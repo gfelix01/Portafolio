@@ -144,18 +144,22 @@ export default function Portfolio() {
               </motion.div>
             </div>
           </section>
+          <section id="about" className="py-20 bg-gray-100 dark:bg-gray-900">
+  <div className="container mx-auto px-6 lg:px-20">
+    <h2 className="text-4xl font-extrabold mb-10 text-center text-gray-800 dark:text-white">
+      Sobre mí
+    </h2>
+    <div className="bg-white dark:bg-gray-800 rounded-lg shadow-2xl p-10 md:p-16">
+      <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-6">
+        Soy un apasionado Desarrollador de Software, con experiencia en la creación de aplicaciones modernas y responsivas. Mi enfoque se centra en proporcionar soluciones eficientes y escalables utilizando las últimas tecnologías del mercado.
+      </p>
+      <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+        Con una sólida base en React JS, JavaScript, Next.js, CSS3 y Node.js, me esfuerzo por crear experiencias de usuario excepcionales y código limpio y mantenible. Mi objetivo es seguir aprendiendo y creciendo en el campo del desarrollo web, contribuyendo a proyectos innovadores y desafiantes.
+      </p>
+    </div>
+  </div>
+</section>
 
-          <section id="about" className="py-20">
-            <h2 className="text-3xl font-bold mb-8 text-center">Sobre mí</h2>
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8">
-              <p className="text-lg mb-4">
-                Soy un apasionado Desarrollador de Software, con experiencia en la creación de aplicaciones modernas y responsivas. Mi enfoque se centra en proporcionar soluciones eficientes y escalables utilizando las últimas tecnologías del mercado.
-              </p>
-              <p className="text-lg">
-                Con una sólida base en React JS, JavaScript, Next.js, CSS3 y Node.js, me esfuerzo por crear experiencias de usuario excepcionales y código limpio y mantenible. Mi objetivo es seguir aprendiendo y creciendo en el campo del desarrollo web, contribuyendo a proyectos innovadores y desafiantes.
-              </p>
-            </div>
-          </section>
 
           <section id="projects" className="py-20">
   <h2 className="text-3xl font-bold mb-8 text-center">Proyectos</h2>
