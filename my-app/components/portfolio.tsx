@@ -182,7 +182,7 @@ export default function Portfolio() {
       {
         title: "Andamios Web",
         description: "Andamios del Este es una página web informativa diseñada para proporcionar detalles sobre los servicios y productos de la empresa. Desarrollada en WordPress y utilizando el constructor visual Divi, el sitio ofrece una experiencia intuitiva y visualmente atractiva, permitiendo a los usuarios navegar fácilmente por la información relacionada con alquiler y venta de andamios. El diseño es totalmente responsive, asegurando una visualización óptima en cualquier dispositivo.",
-        tech: ["JavascriptES6", "CSS3", "HTML5"],
+        tech: ["Wordpress", "Elementor Pro", "PHP"],
         image: "/images/projects/Andamios.png",
         link: "https://andamiosdeleste.com.do" // Reemplaza con el enlace real
       },
