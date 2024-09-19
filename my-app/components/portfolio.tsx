@@ -168,23 +168,30 @@ export default function Portfolio() {
       {
         title: "WEB Fundacion y Ministerio FUMMHOR",
         description: "WEB Fundación y Ministerio FUMMHOR es un sitio web desarrollado para una fundación evangélica, diseñado con WordPress y el constructor visual Elementor. La página presenta información clave sobre la misión y actividades de la fundación, además de permitir la interacción con la comunidad a través de secciones dinámicas y personalizadas. Utilizando PHP para funciones avanzadas, el sitio es completamente responsive y optimizado para una navegación intuitiva y accesible en cualquier dispositivo.",
-        tech: ["Wordpress", "Elementor", "PHP"],
+        tech: ["Wordpress", "Elementor PRO", "PHP"],
         image: "/images/projects/Fummhor.png",
         link: "https://fummhor.com" // Reemplaza con el enlace real
       },
       {
         title: "Clon-Movies",
         description: "Clon-Movies es una aplicación web que permite a los usuarios explorar una amplia variedad de películas. La app está conectada a una API de películas que proporciona información actualizada sobre los últimos estrenos, detalles de cada película, incluyendo sinopsis, calificación, y más. Desarrollada con React.js para una experiencia de usuario dinámica y fluida, y estilizada con Tailwind CSS para un diseño moderno y responsive.",
-        tech: ["React.js", "Tailwind CSS"],
+        tech: ["React.js", "Boostrap"],
         image: "/images/projects/clon.png",
         link: "https://clon-movie.vercel.app/" // Reemplaza con el enlace real
       },
       {
         title: "Andamios Web",
         description: "Andamios del Este es una página web informativa diseñada para proporcionar detalles sobre los servicios y productos de la empresa. Desarrollada en WordPress y utilizando el constructor visual Divi, el sitio ofrece una experiencia intuitiva y visualmente atractiva, permitiendo a los usuarios navegar fácilmente por la información relacionada con alquiler y venta de andamios. El diseño es totalmente responsive, asegurando una visualización óptima en cualquier dispositivo.",
-        tech: ["Wordpress", "Elementor Pro", "PHP"],
+        tech: ["Wordpress", "Divi", "PHP", "Crips"],
         image: "/images/projects/Andamios.png",
         link: "https://andamiosdeleste.com.do" // Reemplaza con el enlace real
+      },
+      {
+        title: "CLDE WEB",
+        description: "Centro Logistico del este  es una página web informativa diseñada para proporcionar detalles sobre los servicios y productos de la empresa. Desarrollada en React js con el Framework de Next.js y utilizando el constructor visual Tailwind CSS, el sitio ofrece una experiencia intuitiva y visualmente atractiva, permitiendo a los usuarios navegar fácilmente por la información relacionada con la logistica y almacenamiento de mercancia , tanto en frio como en seco. El diseño es totalmente responsive, asegurando una visualización óptima en cualquier dispositivo.",
+        tech: ["Next.JS", "Tailwind CSS", "React.JS", "Framer motion"],
+        image: "/images/projects/CLDE.png",
+        link: "En produccion" // Reemplaza con el enlace real
       },
       {
         title: "API Pokedex",
