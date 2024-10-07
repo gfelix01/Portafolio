@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
@@ -52,6 +53,7 @@ export const renderCustomIcon = (icon: SimpleIcon, theme: string) => {
       href: undefined,
       target: undefined,
       rel: undefined,
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       onClick: (e: any) => e.preventDefault(),
     },
   });

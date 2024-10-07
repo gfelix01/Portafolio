@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from 'framer-motion';
-import { Sun, Moon, Download, Send, Github, Linkedin, Twitter } from 'lucide-react';
+import { Sun, Moon, Download, Send,Github,Twitter, Linkedin, } from 'lucide-react';
 import Image from 'next/image';
 import IconCloud from "../components/ui/icon-cloud";
 
@@ -28,10 +28,30 @@ export default function Portfolio() {
   const toggleDarkMode = () => {
     setDarkMode(prevMode => {
         const newMode = !prevMode;
-        localStorage.setItem('darkMode', newMode);
+        localStorage.setItem('darkMode',"newMode");
         return newMode;
     });
 };
+interface IconCloudWrapperProps {
+  iconSlugs: string[];
+  className?: string;
+}
+
+const IconCloudWrapper: React.FC<IconCloudWrapperProps> = ({ iconSlugs, className }) => {
+  return (
+    <div className={className}>
+      <IconCloud iconSlugs={iconSlugs} />
+    </div>
+  );
+};
+{/* Skills Section */}
+<section id="skills" className="py-20">
+  <h2 className="text-3xl font-bold mb-8 text-center text-white">Habilidades</h2>
+  <div className="flex flex-col items-center justify-center max-w-lg mx-auto rounded-lg border bg-background bg-opacity-10 dark:bg-gray-800 px-8 pb-10 pt-8 shadow-lg transition-transform transform hover:scale-105">
+    <IconCloudWrapper iconSlugs={slugs} className="text-black dark:text-white" />
+  </div>
+</section>
+
 
 
   const toggleMenu = () => {
@@ -219,13 +239,15 @@ export default function Portfolio() {
             </div>
           </section>
 
-        {/* Skills Section */}
-        <section id="skills" className="py-20">
+{/* Skills Section */}
+<section id="skills" className="py-20">
   <h2 className="text-3xl font-bold mb-8 text-center text-white">Habilidades</h2>
-  <div className="flex flex-col items-center justify-center max-w-lx mx-auto rounded-lg border bg-background bg-opacity-10 dark:bg-gray-800 px-20 pb-30 pt-8">
-    <IconCloud iconSlugs={slugs} className="text-black dark:text-white" />
+  <div className="flex flex-col items-center justify-center max-w-lg mx-auto rounded-lg border bg-background bg-opacity-10 dark:bg-gray-800 px-8 pb-10 pt-8 shadow-lg transition-transform transform hover:scale-105">
+    <IconCloudWrapper iconSlugs={slugs} className="text-black dark:text-white" />
   </div>
 </section>
+
+
 
 
 
