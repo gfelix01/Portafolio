@@ -220,13 +220,13 @@ export default function Portfolio() {
           </section>
 
         {/* Skills Section */}
-<section id="skills" className="py-20">
+        <section id="skills" className="py-20">
   <h2 className="text-3xl font-bold mb-8 text-center text-white">Habilidades</h2>
   <div className="flex flex-col items-center justify-center max-w-lx mx-auto rounded-lg border bg-background bg-opacity-10 dark:bg-gray-800 px-20 pb-30 pt-8">
-    {/* Asegúrate de que el IconCloud acepte clases para iconos */}
-    <IconCloud iconSlugs={slugs} className="text-white dark:text-gray-300" />
+    <IconCloud iconSlugs={slugs} className="text-black dark:text-white" />
   </div>
 </section>
+
 
 
               
